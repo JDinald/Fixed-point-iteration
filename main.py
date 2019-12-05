@@ -34,6 +34,7 @@ for iter_count in range(ITERATION_LIMIT):
 print()
 print("Solution: ")
 print("Vector X: ", x, "Total iterations: ", iter_count)
+print("Start time: ", start, "End time: ", stop)
 print("Elapsed time during the whole function in seconds:", stop-start)
 
 """"Error check"""
